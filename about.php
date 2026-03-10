@@ -18,12 +18,13 @@
 
         function change2() {
             document.getElementById("pic").src = "cliff.jpg";
-            document.getElementById("h2text").innerText = "Tzyy-Ching Yang";
+            document.getElementById("h2text").innerText = "Zhi-Xuan Xu";
         }
 
     </script>
 </head>
 <body>
+    <?php echo date("Y-m-d") ?>
 	<table width="70%">
 		<tr>
 			<td>
@@ -56,6 +57,5 @@ onmouseover="change1()" onmouseout="change2()"></img>
                 <iframe src="https://www.youtube.com/embed/pW88QFpHXa8" allowfullscreen></iframe>
             </td>
         </tr>
-        <?php echo date("Y-m-d") ?>
 </body>
 </html>
